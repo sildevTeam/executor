@@ -1,0 +1,7 @@
+local sio = require("SilIO")
+sio.testFunc()
+print(sio.name)
+out = sio.read()
+print(out)
+sio.write("write by lua")
+sio.reg()
